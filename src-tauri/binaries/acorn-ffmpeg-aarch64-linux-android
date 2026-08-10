@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "ffmpeg placeholder — use youtubedl-android at runtime" >&2
+exit 1

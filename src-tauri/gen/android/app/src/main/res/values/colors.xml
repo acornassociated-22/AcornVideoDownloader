@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="acorn_primary">#033D8C</color>
+    <color name="acorn_primary_dark">#011A3A</color>
+    <color name="acorn_accent">#145425</color>
+    <color name="acorn_chrome">#F0F2F5</color>
+    <color name="acorn_surface">#FFFFFF</color>
+    <color name="acorn_background">#F0F2F5</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

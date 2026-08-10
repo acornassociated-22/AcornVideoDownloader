@@ -1,0 +1,33 @@
+name: Android
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  android-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Sync Android Kotlin templates
+        run: |
+          source scripts/_env.sh
+          source scripts/_android_common.sh
+          ensure_android_kotlin
+          ensure_android_manifest
+
+      - name: Check Android template drift
+        run: bash scripts/check-android-template-drift.sh
