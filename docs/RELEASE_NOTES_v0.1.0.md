@@ -18,7 +18,7 @@ First public release of Acorn — a cross-platform YouTube downloader built with
 | Linux (amd64) | `acorn-video-downloader_0.1.0_amd64.deb` | Debian/Ubuntu installer |
 | Linux (amd64) | `acorn-video-downloader_0.1.0_amd64.zip` | Portable archive |
 | Linux (aarch64) | `acorn-video-downloader_0.1.0_aarch64.zip` | ARM64 portable archive |
-| Android | APK (when attached) | Install from Releases; enable unknown sources if needed |
+| Android (arm64) | `acorn-video-downloader_0.1.0_aarch64.apk` | Signed release APK (~64 MB) |
 
 Windows and macOS installers will be added in a future release. Build from source — see [BUILD.md](BUILD.md).
 

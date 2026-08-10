@@ -36,7 +36,7 @@ Get the latest installers from **[GitHub Releases](https://github.com/acornassoc
 
 | Platform | Format | Status |
 |----------|--------|--------|
-| **Android** | `.apk` | Available in Releases |
+| **Android** (arm64) | `.apk` | [Download APK](https://github.com/acornassociated-22/AcornVideoDownloader/releases/latest/download/acorn-video-downloader_0.1.0_aarch64.apk) |
 | **Linux** (amd64) | `.deb` / `.zip` | Available in Releases |
 | **Linux** (aarch64) | `.zip` | Available in Releases |
 | **Windows** | `.exe` / `.msi` | Build from source ([BUILD.md](docs/BUILD.md)) |
