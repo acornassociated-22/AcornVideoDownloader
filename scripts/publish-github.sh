@@ -6,18 +6,40 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-GH="${GH:-gh}"
+# Resolve gh: env override, PATH, ~/.local/bin, or bundled download location.
+resolve_gh() {
+  if [[ -n "${GH:-}" ]] && [[ -x "$GH" || "$GH" == "gh" ]] && command -v "$GH" >/dev/null 2>&1; then
+    command -v "$GH"
+    return 0
+  fi
+  local candidate
+  for candidate in \
+    "${HOME}/.local/bin/gh" \
+    "/tmp/gh_2.63.2_linux_amd64/bin/gh"; do
+    if [[ -x "$candidate" ]]; then
+      echo "$candidate"
+      return 0
+    fi
+  done
+  command -v gh 2>/dev/null || true
+}
+
+GH="$(resolve_gh || true)"
 REPO="${GITHUB_REPO:-acornassociated22/AcornVideoDownloader}"
 TAG="${RELEASE_TAG:-v0.1.0}"
 VERSION="${TAG#v}"
 
-if ! command -v "$GH" >/dev/null 2>&1; then
-  echo "GitHub CLI (gh) not found. Install: https://cli.github.com/" >&2
+if [[ -z "$GH" ]] || ! "$GH" --version >/dev/null 2>&1; then
+  echo "GitHub CLI (gh) not found." >&2
+  echo "Install to ~/.local/bin:" >&2
+  echo '  mkdir -p ~/.local/bin && curl -sL https://github.com/cli/cli/releases/download/v2.63.2/gh_2.63.2_linux_amd64.tar.gz | tar -xz -C /tmp && cp /tmp/gh_2.63.2_linux_amd64/bin/gh ~/.local/bin/gh' >&2
+  echo "Or: https://cli.github.com/" >&2
   exit 1
 fi
 
 if ! "$GH" auth status >/dev/null 2>&1; then
-  echo "Not logged in. Run: gh auth login" >&2
+  echo "Not logged in. Run:" >&2
+  echo "  $GH auth login" >&2
   exit 1
 fi
 
