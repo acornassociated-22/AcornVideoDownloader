@@ -182,7 +182,32 @@ Primarily YouTube and public Instagram content. Support depends on yt-dlp extrac
 
 ## Support
 
-- **Email:** [Support@acornassociated.org](mailto:Support@acornassociated.org)
+### Websites
+
+- [www.Acornik.com](https://www.acornik.com)
+- [acornassociated.org](https://acornassociated.org/)
+
+### Contact
+
+| Channel | Email |
+|---------|-------|
+| Info | [Info@acornassociated.org](mailto:Info@acornassociated.org) |
+| Sales | [Sales@acornassociated.org](mailto:Sales@acornassociated.org) |
+| Support | [Support@acornassociated.org](mailto:Support@acornassociated.org) |
+| PayPal / Donate | [acornassociatedorg@gmail.com](mailto:acornassociatedorg@gmail.com) |
+
+### Social media
+
+[Facebook](https://www.facebook.com/share/1BHdij74U4/) · [X](https://x.com/Acornassociate2) · [Instagram](https://www.instagram.com/acornassociated) · [YouTube](https://youtube.com/@acornassociated) · [Telegram](https://t.me/acornassociated) · [LinkedIn](https://www.linkedin.com/in/acorn-associated-4715b4424) · [GitHub](https://github.com/acornassociated-22) · [Medium](https://medium.com/@social_3025) · [Reddit](https://www.reddit.com/user/Acorn_Associated) · [Pinterest](https://pin.it/6aHftNn8p)
+
+### Donate
+
+- **$5** — [Stripe](https://donate.stripe.com/test_6oU6oH2ac2dpaOl9uRfQI00)
+- **$10** — [Stripe](https://donate.stripe.com/test_5kQ28r168dW71dLgXjfQI01)
+- **$100** — [Stripe](https://donate.stripe.com/test_14A6oH6qs7xJbSp9uRfQI03)
+- **Other** — [Stripe custom amount](https://donate.stripe.com/test_3cI4gzg1219lcWtfTffQI02)
+- **PayPal** — [acornassociatedorg@gmail.com](mailto:acornassociatedorg@gmail.com)
+
 - **GitHub:** [acornassociated-22/AcornVideoDownloader](https://github.com/acornassociated-22/AcornVideoDownloader)
 - **About tab in app** — Donate, contact form, social links
 

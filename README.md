@@ -146,15 +146,71 @@ See **[docs/BUILD.md](docs/BUILD.md)** for full requirements (Rust, Node 20+, An
 
 ---
 
-## Support Acorn Associated
+## Websites
 
-Acorn is built by **[Acorn Associated](https://github.com/acornassociated-22)** — Qamishli.
+| Site | Link |
+|------|------|
+| **Acornik** | [www.Acornik.com](https://www.acornik.com) |
+| **Acorn Associated** | [acornassociated.org](https://acornassociated.org/) |
 
-- **Email:** [Support@acornassociated.org](mailto:Support@acornassociated.org)
-- **Donate:** in-app **About → Donate** tab
-- **Social:** [GitHub](https://github.com/acornassociated-22) · [YouTube](https://youtube.com/@acornassociated) · [Instagram](https://www.instagram.com/acornassociated) · [Telegram](https://t.me/acornassociated)
+---
+
+## Contact
+
+| Channel | Email |
+|---------|-------|
+| **Info** | [Info@acornassociated.org](mailto:Info@acornassociated.org) |
+| **Sales** | [Sales@acornassociated.org](mailto:Sales@acornassociated.org) |
+| **Support** | [Support@acornassociated.org](mailto:Support@acornassociated.org) |
+| **PayPal / Donate** | [acornassociatedorg@gmail.com](mailto:acornassociatedorg@gmail.com) |
 
 Found a bug? [Open an issue](https://github.com/acornassociated-22/AcornVideoDownloader/issues).
+
+---
+
+## Social media
+
+| Platform | Profile |
+|----------|---------|
+| Facebook | [facebook.com/share/1BHdij74U4](https://www.facebook.com/share/1BHdij74U4/) |
+| X (Twitter) | [@Acornassociate2](https://x.com/Acornassociate2) |
+| Instagram | [@acornassociated](https://www.instagram.com/acornassociated) |
+| YouTube | [@acornassociated](https://youtube.com/@acornassociated) |
+| Telegram | [t.me/acornassociated](https://t.me/acornassociated) |
+| LinkedIn | [Acorn Associated](https://www.linkedin.com/in/acorn-associated-4715b4424) |
+| GitHub | [acornassociated-22](https://github.com/acornassociated-22) |
+| Medium | [@social_3025](https://medium.com/@social_3025) |
+| Reddit | [u/Acorn_Associated](https://www.reddit.com/user/Acorn_Associated) |
+| Pinterest | [pin.it/6aHftNn8p](https://pin.it/6aHftNn8p) |
+
+---
+
+## Donate
+
+Support **Acorn Associated** — pay by card (no PayPal account needed) or send via PayPal.
+
+### Card (Stripe)
+
+| Amount | Link |
+|--------|------|
+| **$5 USD** | [donate.stripe.com — $5](https://donate.stripe.com/test_6oU6oH2ac2dpaOl9uRfQI00) |
+| **$10 USD** | [donate.stripe.com — $10](https://donate.stripe.com/test_5kQ28r168dW71dLgXjfQI01) |
+| **$100 USD** | [donate.stripe.com — $100](https://donate.stripe.com/test_14A6oH6qs7xJbSp9uRfQI03) |
+| **Other amount** | [donate.stripe.com — custom](https://donate.stripe.com/test_3cI4gzg1219lcWtfTffQI02) |
+
+### PayPal
+
+Send Money to **[acornassociatedorg@gmail.com](mailto:acornassociatedorg@gmail.com)** · [Open PayPal Send Money](https://www.paypal.com/myaccount/transfer/send/?recipient=acornassociatedorg%40gmail.com&currencyCode=USD&note=Acorn+Associated+support)
+
+You can also donate in the app: **About → Donate**.
+
+---
+
+## Acorn Associated
+
+Acorn Video Downloader is built by **Acorn Associated** — Qamishli.
+
+*Empowering minds. Building tech capacity.*
 
 ---
 
