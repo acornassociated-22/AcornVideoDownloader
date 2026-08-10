@@ -8,14 +8,14 @@ Welcome to **Acorn Video Downloader**. This guide explains every screen and comm
 
 ### Android
 
-1. Download the latest **APK** from [GitHub Releases](https://github.com/acornassociated22/AcornVideoDownloader/releases).
+1. Download the latest **APK** from [GitHub Releases](https://github.com/acornassociated-22/AcornVideoDownloader/releases).
 2. Install the APK (allow “Install unknown apps” if prompted).
 3. Open Acorn, paste a YouTube link on **Home**, pick quality and format, then tap **Start download** or **Add to queue**.
 4. Optional: allow notifications and disable battery optimization for Acorn (see [Android tips](#android-tips)).
 
 ### Desktop (Linux / Windows / macOS)
 
-1. Download the installer for your platform from [Releases](https://github.com/acornassociated22/AcornVideoDownloader/releases).
+1. Download the installer for your platform from [Releases](https://github.com/acornassociated-22/AcornVideoDownloader/releases).
 2. Install and launch Acorn.
 3. Paste a YouTube URL, follow the download wizard, and save the file to your chosen folder.
 
@@ -183,7 +183,7 @@ Primarily YouTube and public Instagram content. Support depends on yt-dlp extrac
 ## Support
 
 - **Email:** [Support@acornassociated.org](mailto:Support@acornassociated.org)
-- **GitHub:** [acornassociated22/AcornVideoDownloader](https://github.com/acornassociated22/AcornVideoDownloader)
+- **GitHub:** [acornassociated-22/AcornVideoDownloader](https://github.com/acornassociated-22/AcornVideoDownloader)
 - **About tab in app** — Donate, contact form, social links
 
 ---

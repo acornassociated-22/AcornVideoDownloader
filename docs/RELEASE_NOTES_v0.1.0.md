@@ -57,4 +57,4 @@ Extract and run the `acorn-video-downloader` binary inside.
 
 ## Support
 
-Questions or issues: [GitHub Issues](https://github.com/acornassociated22/AcornVideoDownloader/issues) or [Support@acornassociated.org](mailto:Support@acornassociated.org).
+Questions or issues: [GitHub Issues](https://github.com/acornassociated-22/AcornVideoDownloader/issues) or [Support@acornassociated.org](mailto:Support@acornassociated.org).

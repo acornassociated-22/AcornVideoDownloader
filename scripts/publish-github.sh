@@ -25,9 +25,9 @@ resolve_gh() {
 }
 
 GH="$(resolve_gh || true)"
-REPO="${GITHUB_REPO:-acornassociated22/AcornVideoDownloader}"
 TAG="${RELEASE_TAG:-v0.1.0}"
 VERSION="${TAG#v}"
+REPO_NAME="${GITHUB_REPO_NAME:-AcornVideoDownloader}"
 
 if [[ -z "$GH" ]] || ! "$GH" --version >/dev/null 2>&1; then
   echo "GitHub CLI (gh) not found." >&2
@@ -43,13 +43,37 @@ if ! "$GH" auth status >/dev/null 2>&1; then
   exit 1
 fi
 
+GH_USER="$("$GH" api user --jq .login)"
+if [[ -n "${GITHUB_REPO:-}" ]]; then
+  REPO="$GITHUB_REPO"
+  REPO_OWNER="${REPO%%/*}"
+  if [[ "$REPO_OWNER" != "$GH_USER" ]]; then
+    echo "Error: logged in as '$GH_USER' but GITHUB_REPO owner is '$REPO_OWNER'." >&2
+    echo "Either log in as '$REPO_OWNER':" >&2
+    echo "  $GH auth logout && $GH auth login" >&2
+    echo "Or publish under your account:" >&2
+    echo "  GITHUB_REPO=${GH_USER}/${REPO_NAME} ./scripts/publish-github.sh" >&2
+    exit 1
+  fi
+else
+  REPO="${GH_USER}/${REPO_NAME}"
+fi
+
+echo "==> GitHub account: $GH_USER"
+echo "==> Target repo: $REPO"
+
 if ! "$GH" repo view "$REPO" >/dev/null 2>&1; then
   echo "==> Creating public repo $REPO"
-  "$GH" repo create "$REPO" --public --source=. --remote=origin --description "Cross-platform YouTube downloader — Tauri 2 · React · yt-dlp"
+  if git remote get-url origin >/dev/null 2>&1; then
+    git remote remove origin
+  fi
+  "$GH" repo create "$REPO_NAME" --public --source=. --remote=origin --description "Cross-platform YouTube downloader — Tauri 2 · React · yt-dlp"
 else
   echo "==> Repo $REPO exists"
   if ! git remote get-url origin >/dev/null 2>&1; then
     git remote add origin "https://github.com/${REPO}.git"
+  else
+    git remote set-url origin "https://github.com/${REPO}.git"
   fi
 fi
 

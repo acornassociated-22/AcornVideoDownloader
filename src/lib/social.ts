@@ -47,7 +47,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     id: "github",
     label: "GitHub",
-    href: "https://github.com/acornassociated22",
+    href: "https://github.com/acornassociated-22",
     color: "#24292F",
   },
   {

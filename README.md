@@ -10,14 +10,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/acornassociated22/AcornVideoDownloader/releases"><img src="https://img.shields.io/github/v/release/acornassociated22/AcornVideoDownloader?label=release&color=695CFE" alt="Release" /></a>
-  <a href="https://github.com/acornassociated22/AcornVideoDownloader"><img src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Android-242430" alt="Platforms" /></a>
+  <a href="https://github.com/acornassociated-22/AcornVideoDownloader/releases"><img src="https://img.shields.io/github/v/release/acornassociated-22/AcornVideoDownloader?label=release&color=695CFE" alt="Release" /></a>
+  <a href="https://github.com/acornassociated-22/AcornVideoDownloader"><img src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Android-242430" alt="Platforms" /></a>
   <a href="https://v2.tauri.app/"><img src="https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri&logoColor=white" alt="Tauri 2" /></a>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" alt="React" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/acornassociated22/AcornVideoDownloader/releases/latest"><strong>⬇ Download latest release</strong></a>
+  <a href="https://github.com/acornassociated-22/AcornVideoDownloader/releases/latest"><strong>⬇ Download latest release</strong></a>
   &nbsp;·&nbsp;
   <a href="docs/USER_GUIDE.md">User guide</a>
   &nbsp;·&nbsp;
@@ -32,7 +32,7 @@
 
 ## Download
 
-Get the latest installers from **[GitHub Releases](https://github.com/acornassociated22/AcornVideoDownloader/releases/latest)**.
+Get the latest installers from **[GitHub Releases](https://github.com/acornassociated-22/AcornVideoDownloader/releases/latest)**.
 
 | Platform | Format | Status |
 |----------|--------|--------|
@@ -86,7 +86,7 @@ Get the latest installers from **[GitHub Releases](https://github.com/acornassoc
 
 ### Android
 
-1. Install the APK from [Releases](https://github.com/acornassociated22/AcornVideoDownloader/releases/latest).
+1. Install the APK from [Releases](https://github.com/acornassociated-22/AcornVideoDownloader/releases/latest).
 2. Open Acorn → paste a YouTube URL → choose quality & format → **Start download**.
 3. For playlists: select videos → **Add to queue**.
 4. If YouTube blocks a download: **Settings → Sign in to YouTube** or import `cookies.txt`.
@@ -122,7 +122,7 @@ Get the latest installers from **[GitHub Releases](https://github.com/acornassoc
 ## Build from source
 
 ```bash
-git clone https://github.com/acornassociated22/AcornVideoDownloader.git
+git clone https://github.com/acornassociated-22/AcornVideoDownloader.git
 cd AcornVideoDownloader
 ./scripts/install.sh
 ./scripts/run.sh          # desktop dev
@@ -148,13 +148,13 @@ See **[docs/BUILD.md](docs/BUILD.md)** for full requirements (Rust, Node 20+, An
 
 ## Support Acorn Associated
 
-Acorn is built by **[Acorn Associated](https://github.com/acornassociated22)** — Qamishli.
+Acorn is built by **[Acorn Associated](https://github.com/acornassociated-22)** — Qamishli.
 
 - **Email:** [Support@acornassociated.org](mailto:Support@acornassociated.org)
 - **Donate:** in-app **About → Donate** tab
-- **Social:** [GitHub](https://github.com/acornassociated22) · [YouTube](https://youtube.com/@acornassociated) · [Instagram](https://www.instagram.com/acornassociated) · [Telegram](https://t.me/acornassociated)
+- **Social:** [GitHub](https://github.com/acornassociated-22) · [YouTube](https://youtube.com/@acornassociated) · [Instagram](https://www.instagram.com/acornassociated) · [Telegram](https://t.me/acornassociated)
 
-Found a bug? [Open an issue](https://github.com/acornassociated22/AcornVideoDownloader/issues).
+Found a bug? [Open an issue](https://github.com/acornassociated-22/AcornVideoDownloader/issues).
 
 ---
 
